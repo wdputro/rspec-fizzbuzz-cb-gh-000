@@ -1,9 +1,9 @@
 def fizzbuzz(inp)
   if inp % 3 == 0
     return "Fizz"
-  if inp % 5 == 0
+  elseif inp % 5 == 0
     return "Buzz"
-  if inp % 5 == 0 and inp % 3 == 0
+  elseif inp % 5 == 0 and inp % 3 == 0
     return "FizzBuzz"
   else
     return inp
