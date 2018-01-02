@@ -11,4 +11,4 @@ def fizzbuzz(inp)
 end
 
 
-puts fizzbuzz(15)
+puts fizzbuzz(5)
