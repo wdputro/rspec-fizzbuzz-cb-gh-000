@@ -9,3 +9,6 @@ def fizzbuzz(inp)
     return inp
   end
 end
+
+
+puts fizzbuzz(3)
