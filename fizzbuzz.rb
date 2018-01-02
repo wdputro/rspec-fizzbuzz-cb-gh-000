@@ -3,7 +3,7 @@ def fizzbuzz(inp)
     return "Fizz"
   elsif inp % 5 == 0
     return "Buzz"
-  elsif (inp % 5 == 0) && (inp % 3 == 0)
+  elsif (inp % 3 == 0) && (inp % 5 == 0)
     return "FizzBuzz"
   else
     return nil
@@ -11,4 +11,4 @@ def fizzbuzz(inp)
 end
 
 
-puts fizzbuzz(30)
+puts fizzbuzz(8)
