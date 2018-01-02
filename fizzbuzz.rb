@@ -1,11 +1,11 @@
 def fizzbuzz(inp)
   if inp % 3 == 0
-    puts "Fizz"
+    return "Fizz"
   elseif inp % 5 == 0
-    puts "Buzz"
+    return "Buzz"
   elseif inp % 5 == 0 && inp % 3 == 0
-    puts "FizzBuzz"
+    return "FizzBuzz"
   else
-    inp
+    return inp
   end
 end
